@@ -1,0 +1,104 @@
+.front{
+	width: 100%;
+    height: 100vh;
+}
+.frImg{
+	width: 100%;
+    height: 40vh;
+    background: url(../images/background.png) no-repeat 100% 100%;
+}
+.frImg h2{
+	display: block;
+    position: relative;
+    top: 17%;
+    left: 0%;
+    padding: 0 3%;
+    font-size: -webkit-xxx-large;
+    color: #f7f2f2;
+}
+.panel{
+	margin: 4% 20% 0 20%;
+}
+.panel>div{
+	width: 100%;
+	margin-bottom : 2%;
+}
+.panel label{
+	width: 31%;
+    font-weight: bolder;
+}
+.panel input{
+	width: 68%;
+    padding: 1% 6px;
+    border-radius: 2px;
+}
+#submit{
+	margin: 0 0 0 36%;
+    padding: 1% 4%;
+	background : #47739a;
+	color: white;
+}
+
+.dragContainer p{
+	padding: 2% 40%;
+    background: #47739a;
+    font-weight: bold;
+    color: #efe9e9;
+	width : 95%;
+	cursor : pointer;
+	z-index : 2;
+	margin: 0px 0px 20px 14px;
+}
+.dragContainer>div{
+    background: #e9ecef;
+    width: 100%;
+    margin-bottom: 3%;
+    width: 550px;
+    height: 86px;
+	padding-top : 20px;
+}
+
+.dropContainer>div{
+	padding-top : 20px;
+    background: #c3ccd4;
+    font-weight: bold;
+    color: #efe9e9;
+    width: 100%;
+    margin-bottom: 3%;
+    border: 0.5pt solid #bfb7b7;
+    width: 550px;
+    height: 101px;
+}
+
+.changeDiv{
+	background: #47739a;
+    color: white;
+    width: 100%;
+    height: inherit;
+    padding: 6% 45%;
+}
+.dragDestination>p{
+	padding: 2% 40%;
+    background: #47739a;
+    font-weight: bold;
+    color: #efe9e9;
+    width: 95%;
+    cursor: pointer;
+    z-index: 2;
+	margin: 0px 0px 20px 14px;
+}
+.revertTO{
+	position : relative;
+	top: 0;
+	left: 0;
+}
+.ad_div{
+	width: 100vw;
+	height: 100vh;
+}
+#reset{
+	margin-left: 2%;
+	padding: 1% 4%;
+	background : #47739a;
+	color: white;
+}
